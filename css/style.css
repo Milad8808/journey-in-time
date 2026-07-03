@@ -72,7 +72,7 @@ body{
 
     top:50%;
 
-    left:10%;
+    left:12%;
 
     transform:translateY(-50%);
 
@@ -86,11 +86,11 @@ body{
 
 .hero h1{
 
-    font-size:4.5rem;
+    font-size:5rem;
 
     font-weight:200;
 
-    margin-bottom:25px;
+    margin-bottom:10px;
 
 }
 
