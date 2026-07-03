@@ -1,17 +1,29 @@
 window.onload = () => {
 
     const title = document.querySelector(".title");
-    const quote = document.querySelector(".quote");
+    const line1 = document.querySelector(".line1");
+    const line2 = document.querySelector(".line2");
 
     title.style.transition = "opacity 2s ease";
-    quote.style.transition = "opacity 2s ease";
+    line1.style.transition = "opacity 2s ease";
+    line2.style.transition = "opacity 2s ease";
 
     setTimeout(() => {
+
         title.style.opacity = "1";
-    }, 1000);
+
+    }, 800);
 
     setTimeout(() => {
-        quote.style.opacity = "1";
-    }, 2500);
+
+        line1.style.opacity = "1";
+
+    }, 2800);
+
+    setTimeout(() => {
+
+        line2.style.opacity = "1";
+
+    }, 5000);
 
 };
