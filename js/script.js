@@ -1,15 +1,17 @@
 window.onload = () => {
 
-    const text = document.querySelector(".hero-text");
+    const title = document.querySelector(".title");
+    const quote = document.querySelector(".quote");
 
-    text.style.opacity = "0";
-
-    text.style.transition = "opacity 2s ease";
+    title.style.transition = "opacity 2s ease";
+    quote.style.transition = "opacity 2s ease";
 
     setTimeout(() => {
+        title.style.opacity = "1";
+    }, 1000);
 
-        text.style.opacity = "1";
-
-    }, 800);
+    setTimeout(() => {
+        quote.style.opacity = "1";
+    }, 2500);
 
 };
