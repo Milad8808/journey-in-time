@@ -122,3 +122,31 @@ body{
     opacity:0;
 
 }
+.opening-words{
+
+    margin-top:35px;
+
+}
+
+.line1,
+.line2{
+
+    opacity:0;
+
+    font-size:1.1rem;
+
+    font-weight:300;
+
+    letter-spacing:0.5px;
+
+    line-height:1.8;
+
+}
+
+.line2{
+
+    margin-top:24px;
+
+    margin-left:70px;
+
+}
