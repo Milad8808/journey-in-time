@@ -1,1 +1,42 @@
+/* ===========================
+   A Journey in Time
+   Design System v1
+=========================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&display=swap');
+
+:root{
+
+    --background:#ECE9E2;
+
+    --text:#2F2F2F;
+
+    --max-width:1200px;
+
+}
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Manrope',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
